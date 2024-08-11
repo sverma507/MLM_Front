@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  /* background: rgb(20,75,223); */
+    /* background: linear-gradient(0deg, rgba(20,75,223,1) 40%, rgba(251,247,247,1) 100%); */
+}
+*{
+    margin: 0px;
+    padding: 0px
+}
+/* //header */
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";

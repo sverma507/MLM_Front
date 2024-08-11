@@ -1,0 +1,107 @@
+.myTeamContainer {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    /* background: rgb(20,75,223); */
+    background: rgb(239, 68, 68);
+    /* background: linear-gradient(0deg, rgba(20,75,223,1) 40%, rgba(251,247,247,1) 100%); */
+    padding-bottom: 50px;
+  }
+  
+  .myTeamContainer > h2 {
+    font-weight: 700;
+  }
+  
+  .teamHeader {
+    display: flex;
+    padding: 10px 10px;
+    align-items: center;
+    /* background: rgb(186, 201, 241); */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .teamHeader > h1 {
+    margin-left: 30%;
+    font-size: 25px;
+    /* color: rgb(87, 83, 83); */
+  }
+  
+  .memberStatus {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .memberStatus > button {
+    border: 1px solid rgb(136, 134, 134);
+    width: 50%;
+    background-color: white;
+    padding: 5px 3px;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .memberStatus > button.activeButton {
+    background-color: rgb(223, 75, 49);
+    color: white;
+  }
+  
+  .actMemb {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10px;
+  }
+  
+  .actMemb > button {
+    border: 1px solid grey;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .actMemb > button.activeButton {
+    background-color: rgb(93, 20, 7);
+    color: white;
+  }
+
+  .teamTable{
+    width: 99%;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+  }
+
+  .teamTable > table{
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .thteamInvite{
+    border-bottom: 2px solid rgb(167, 159, 159);
+  }
+
+  .headTeamTH{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(75, 71, 71);
+    text-align: center;
+  }
+
+  .morePrice{
+    background-color: rgb(25, 182, 25);
+    color: white;
+    width: 90px;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .myTeamContainer {
+      width: 100%;
+      padding: 10px;
+    }
+    .teamHeader > h1 {
+        margin-left: 20%;
+      }
+  }
