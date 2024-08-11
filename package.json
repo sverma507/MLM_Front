@@ -1,14 +1,24 @@
 {
-  "name": "elite_mlm_frontend",
+  "name": "mlm-project-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.3",
     "react": "^18.3.1",
+    "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.1.0",
+    "react-router-dom": "^6.26.0",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.30.2",
+    "react-toastify": "^10.0.5",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.9",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
   }
 }

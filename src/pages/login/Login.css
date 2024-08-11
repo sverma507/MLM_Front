@@ -1,0 +1,153 @@
+.loginContainer {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background: rgb(239, 68, 68);
+    /* background: rgb(20,75,223); */
+    /* background: linear-gradient(0deg, rgba(20,75,223,1) 40%, rgba(251,247,247,1) 100%); */
+    display: block;
+    /* margin-bottom: 40px; */
+    padding: 30px 0px;
+  }
+  
+  .loginContainer > a > img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+  }
+  
+  .languageSlector {
+    margin-left: 75%;
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  
+  .languageSlector:hover {
+    cursor: pointer;
+  }
+  
+  .loginInputWrapper {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    height: 65px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    padding: 0 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+  }
+  
+  .phoneIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .countryCode {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .loginInputWrapper > input {
+    width: calc(100% - 90px);
+    border: none;
+    outline: none;
+    height: 60px;
+    border-radius: 30px;
+    padding-left: 10px;
+  }
+
+
+  
+  .loginInputWrapper > input::placeholder {
+    color: #ccc;
+  }
+  
+  .verificationCode {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    background-image: url('./randomCode.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  /* .sendButton {
+    background-color: #5a3c31;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+  } */
+  
+  /* .sendButton:hover {
+    background-color: #4a3025;
+  } */
+  
+  .signUpBtn {
+    width: 90%;
+    background: rgb(20, 162, 223);
+    background: radial-gradient(circle, rgb(20, 162, 223) 50%, rgba(251,247,247,1) 120%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 40px;
+  }
+  
+  .forgot {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+  }
+  
+  .forgot > a:first-child {
+    color: black;
+    font-weight: 600;
+  }
+  
+  .forgot > a {
+    color: white;
+    font-weight: 700;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .loginContainer {
+      width: 100%;
+    }
+
+    .inputWrapper > input {
+        width: calc(100% - 70px); /* Adjust width to accommodate the button */
+        border: none;
+        outline: none;
+        height: 60px;
+        border-radius: 30px;
+        padding-left: 10px;
+        background-color: white; /* Adjust padding as needed */
+      }
+
+      .languageSlector {
+        margin-left: 60%;
+      }
+  }
+  
